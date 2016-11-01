@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BLR_Analytics" verbose="10" parallel="methods">
+
+
+	<test name="login" group-by-instances="true" verbose="3">
+		<classes>
+			<class name="guru99.tutorials.JIRATest" />
+		</classes>
+	</test>
+
+	<test name="Login" group-by-instances="true" verbose="3">
+	<classes>
+		<class name="guru99.tutorials.AppTest" />
+	</classes>
+</test>
+
+	<test name="createIssue" group-by-instances="true" verbose="3">
+		<classes>
+			<class name="guru99.tutorials.JIRATest" />
+		</classes>
+	</test>
+
+</suite>
