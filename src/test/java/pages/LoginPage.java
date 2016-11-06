@@ -13,12 +13,12 @@ public class LoginPage {
     {this.driver = driver;}
 
     public void enterLogin(String login)
-    {driver.findElement(By.xpath("//input[@id='login-form-username']")).sendKeys("m.koleboshin");}
+    {driver.findElement(By.id("login-form-username")).sendKeys("m.koleboshin");}
 
     public void enterPassword(String password)
-    {driver.findElement(By.xpath("//input[@id='login-form-password']")).sendKeys("m.koleboshin");}
+    {driver.findElement(By.id("login-form-password")).sendKeys("m.koleboshin");}
 
     public void clickSubmit()
-    {driver.findElement(By.xpath("//input[@id='login-form-submit']")).click();}
+    {driver.findElement(By.id("login")).click();}
 
 }
